@@ -1,0 +1,155 @@
+
+Java
+====
+Java7, Basic Oops concepts, String, Collections, Exceptions, Interface, Inheritance	Java 8 familiarity, Concurrency APIs
+
+Spring
+Spring Core, ORM integration, Spring MVC	Knowledge of other modules of Spring
+
+Hibernate
+=========
+Basics: Relationship, mappings, Transactions handling, Session cache, Second level cache conceptual clarity/basics	Implementation level knowledge of second level cache
+
+Database
+=======
+To write select queries involving joins	Knowledge of procedure, triggers
+
+OOPS Design Patterns
+basic creational and behavioural patterns	
+Knowledge of advanced design patterns
+
+In the source code, I need a sample for:
+1. Doing direct query using EntityManager
+2. Create a complex sql query ( If we need to query more than 4 tables, should it better to use query or using DAO)
+3. Create a model using many to one , one to many and one to one
+4. Setup DAO and Controller
+5. Spring interface for querying data
+6. Assume that I've an Employee Class and Branch Class. I want to find all Employee that works in Branch A, how to do that in spring boot? 
+
+WATERFALL MODEL
+======================
+
+The waterfall model is a sequential (non-iterative) design process, used in software development processes, 
+in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of conception, 
+initiation, analysis, design, construction, testing, production/implementation and maintenance.
+
+===================
+
+
+
+Thread source code
+coucrretn hashmap source code 
+semaphore mechanism
+
+SynchoronousQueue
+
+AOP
+===============
+
+Difference between @target and @within in Spring AOP
+===============================
+
+
+any join point (method execution only in Spring AOP) where the target object has an @Transactional annotation:
+@target(org.springframework.transaction.annotation .Transactional)
+
+any join point (method execution only in Spring AOP) where the declared type of the target object has an @Transactional annotation:
+@within(org.springframework.transaction.annotation .Transactional)
+
+
+This is a good question. One difference between the two is that @within() is matched statically, 
+requiring the corresponding annotation type to have only the CLASS retention. 
+Whereas, @target() is matched at runtime, requiring the same to have the RUNTIME retention. 
+Other than that, within the context of Spring, there is no difference between the join points selected by two. 
+
+In AspectJ, there would be very significant differences (dynamic vs. static selection and join points selection in nested classes) between the two.
+
+
+====================================================
+
+
+Dependency Injection Benefits
+======================
+
+Reduced Dependencies
+More Reusable Code
+More Testable Code
+More Readable Code
+Reduced Dependency Carrying
+
+
+core java
+
+  1) visibility of nested class private variables
+  2) arrayList load factor
+  3) how to stop thread
+  
+  
+  
+  Thread
+  ==================
+  
+  1) Definition & initialization
+  2) stoping thread
+  
+  Reflection
+  ======================
+  This method may be used by a caller in class C to enable access to a member of declaring class D if any of the following hold: 
+
+C and D are in the same module. 
+The member is public and D is public in a package that the module containing D exports to at least the module containing C. 
+The member is protected static, D is public in a package that the module containing D exports to at least the module containing C, and C is a subclass of D. 
+D is in a package that the module containing D opens to at least the module containing C. All packages in unnamed and open modules are open to all modules and so this method always succeeds when D is in an unnamed or open module. 
+
+
+
+Java 8 Inteview
+========================
+Core Java
+-------------
+
+1) Print Cross 
+2) print fibonacci
+3) print prime numbers
+
+
+1) diff between JRE, JDK and JVM
+
+
+Stream
+=============
+
+1) what is stream and types of operations
+2) benefit of streaming 
+3) drawbacks of streaming
+
+
+Functional Interview
+=====================
+
+1) What is functionalInteface
+2) What is use of FunctionalINterface
+3) what is difference between functional interface and Anonymous class
+4) 
+
+
+
+Java8 Interfaces
+================
+
+1) what are new features in Java8 interface
+2) what is difference in interface and abstract class from java 8 point of view
+3) what is difference between and static method and Default methods and use cases
+4) 
+
+
+java 8 Concrrency
+===================
+
+1) what are new improvemetnts in Concurrency
+2) what is completable future
+3) implement  Callable in functinal programming 
+
+
+
+
